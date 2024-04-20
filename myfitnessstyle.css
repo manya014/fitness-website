@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(84, 78, 102);
+}
+
+.body {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    margin: 10px 10px 10px 30px;
+}
+
+.center {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline block;
+    background-color: rgb(54, 56, 53);
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbarli a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 0px 15px 0px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(50, 48, 48);
+    background-color: antiquewhite;
+    color: black;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 150px 20px 30px 100px;
+    padding: 30px;
+    width: 40%;
+    border-radius: 13px;
+}
+
+.form-gym input {
+    text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.form-gym select {
+    width: 310px;
+    margin: 7px 10px 10px 7px;
+    border-radius: 13px;
+    height: 33px;
+    border: 2px solid black;
+}
+
+.container button {
+    margin: 10px 10px 10px 10px;
+    width: 310px;
+}
+
+.left img {
+    transition: transform 0.2s;
+}
+
+.left img:hover {
+    transform: rotate(30deg) scale(1.5);
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.box2:hover {
+    background-color: rgb(106, 117, 125);
+}
+
+.box2 h2 {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid red;
+    background-color: rgb(255, 254, 254);
+
+}
+
+.para5 .para {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image2 {
+    margin: auto;
+}
+
+.image2:hover {
+    transform: scale(1.25);
+}
+
+.end {
+    text-align: center;
+}
+
+input:hover {
+    background-color: cornsilk;
+}
+
+select:hover {
+    background-color: cornsilk;
+}
+
+.container3 {
+    background-color: solid black;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    border: 10px 10px 10px 10px ;
+    margin: auto;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+.footer p {
+    color: #aaa;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #ded4a2;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ccc;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
